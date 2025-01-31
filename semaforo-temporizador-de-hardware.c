@@ -28,8 +28,10 @@ int main() {
   add_repeating_timer_ms(ms, repeating_timer_callback, NULL, &timer);
 
   while(1){
-    // Pausa de 50 ms para reduzir o uso da CPU.
-    sleep_ms(50);
+    // Imprimir algum tipo de informação a cada segundo (1.000 ms)
+    printf("1 segundo passou\n");
+    // Pausa de 1000 ms para reduzir o uso da CPU.
+    sleep_ms(1000);
   }
 }
 
