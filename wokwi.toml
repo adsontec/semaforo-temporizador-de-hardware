@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/semaforo-temporizador-de-hardware.uf2'
+elf = 'build/semaforo-temporizador-de-hardware.elf'
